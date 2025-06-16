@@ -32,9 +32,9 @@ requirements:
     - python >=${{ python_min }}
     - numpy
     - matplotlib-base
-    - module-qc-tools >=2.5.0
-    - module-qc-data-tools >=1.2.0
-    - module-qc-database-tools >=2.6.0
+    - module-qc-tools >=2.6.0
+    - module-qc-data-tools >=1.3.0
+    - module-qc-database-tools >=2.7.0
     - typer
     - scipy
     - arrow
