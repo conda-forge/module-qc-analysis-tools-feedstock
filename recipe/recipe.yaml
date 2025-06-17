@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: module-qc-analysis-tools
-  version: "2.5.0"
-  python_min: 3.9
+  version: "2.6.0"
+  python_min: '3.9'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/module_qc_analysis_tools-${{ version }}.tar.gz
-  sha256: a3f725ad3c7e3c36c317bdc0de466b44d8c003e5f12372b109a9d3ca58e6f05a
+  sha256: eec2aa27aeddf6700576bc4ed98dcb12a1d56e966d15c9493e8637a564c68751
 
 build:
   number: 0
@@ -32,9 +32,9 @@ requirements:
     - python >=${{ python_min }}
     - numpy
     - matplotlib-base
-    - module-qc-tools >=2.5.0
-    - module-qc-data-tools >=1.2.0
-    - module-qc-database-tools >=2.6.0
+    - module-qc-tools >=2.6.0
+    - module-qc-data-tools >=1.3.0
+    - module-qc-database-tools >=2.7.0
     - typer
     - scipy
     - arrow
