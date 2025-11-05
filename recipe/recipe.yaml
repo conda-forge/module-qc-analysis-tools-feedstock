@@ -35,7 +35,7 @@ requirements:
     - module-qc-tools >=2.7.1
     - module-qc-data-tools >=1.4.0
     - module-qc-database-tools >=2.9.0
-    - typer >= 0.18.0
+    - typer >=0.18.0
     - scipy
     - arrow
 
