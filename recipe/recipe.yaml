@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: module-qc-analysis-tools
-  version: "2.7.2"
+  version: "2.7.3"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/module_qc_analysis_tools-${{ version }}.tar.gz
-  sha256: 945758d7b24be3db300ad474710fbea6158da05d765f8b7d1f6ac6163f630556
+  sha256: 49f704d3943092db88d2b9ee8dc490bcf4ea00f6f0149431c17926a1b166187e
 
 build:
   number: 0
