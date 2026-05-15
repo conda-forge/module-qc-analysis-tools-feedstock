@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: module-qc-analysis-tools
-  version: "2.8.1"
+  version: "2.9.0"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/module_qc_analysis_tools-${{ version }}.tar.gz
-  sha256: ab6102a9cc044f713bb4d68f3836820761cea60c151f5cc963dc62a447bf3a81
+  sha256: 066ec45523787b492e77f303d918bb8d935ff60c22e10ce297ac4b2854b752c8
 
 build:
   number: 0
@@ -33,8 +33,8 @@ requirements:
     - numpy
     - matplotlib-base
     - module-qc-tools >=2.8.0
-    - module-qc-data-tools >=1.5.0
-    - module-qc-database-tools >=2.10.0
+    - module-qc-data-tools >=1.6.0
+    - module-qc-database-tools >=2.11.0
     - pillow <11.3.0
     - pyparsing <3.3.0
     - typer >=0.18.0
