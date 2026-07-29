@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: module-qc-analysis-tools
   version: "2.10.1"
-  python_min: '3.10'
+  python_min: '3.11'
 
 package:
   name: ${{ name|lower }}
@@ -32,9 +32,9 @@ requirements:
     - python >=${{ python_min }}
     - numpy
     - matplotlib-base
-    - module-qc-tools >=2.8.0
-    - module-qc-data-tools >=1.6.0
-    - module-qc-database-tools >=2.11.0
+    - module-qc-tools >=2.9.1
+    - module-qc-data-tools >=1.7.0
+    - module-qc-database-tools >=2.12.0
     - pillow <11.3.0
     - pyparsing <3.3.0
     - typer >=0.18.0
