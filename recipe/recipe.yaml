@@ -32,7 +32,7 @@ requirements:
     - numpy
     - matplotlib-base
     - module-qc-tools >=2.9.1
-    - module-qc-data-tools >=1.7.0
+    - module-qc-data-tools >=1.7.2
     - module-qc-database-tools >=2.12.0
     - pillow <11.3.0
     - pyparsing <3.3.0
